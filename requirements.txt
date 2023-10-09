@@ -1,0 +1,11 @@
+autopep8==2.0.4
+certifi==2023.7.22
+distlib==0.3.7
+filelock==3.12.4
+pipenv==2023.10.3
+platformdirs==3.11.0
+pycodestyle==2.11.0
+python-dateutil==2.8.2
+six==1.16.0
+tomli==2.0.1
+virtualenv==20.24.5
