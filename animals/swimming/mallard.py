@@ -1,16 +1,16 @@
 from datetime import date
 
+from animals import Animal
+
 class Mallard:
 
-    def __init__(self):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
+    def __init__(self, name, species, food):
+        self.name = name
+        self.species = species
         self.date_added = date.today()
         self.swimming = True
+        self.food = food
+        
 
-miss_quacky = Mallard()
-
-miss_quacky.name = "Miss Quacky"
-miss_quacky.species = "domestic duck"
+    def feed(self):
+      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')

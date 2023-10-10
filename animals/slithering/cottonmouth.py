@@ -1,23 +1,16 @@
 from datetime import date
 
+from animals import Animal
+
 class Cottonmouth:
 
-    def __init__(self
-                 
-                 ):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
+    def __init__(self, name, species, food):
+        self.name = name
+        self.species = species
         self.date_added = date.today()
         self.slithering = True
+        self.food = food
         
 
-miss_cotton = Cottonmouth()
-
-miss_cotton.name = "Miss Cotton"
-miss_cotton.species = "domestic cottonmouth"
-
-
-# <__main__.Cottonmouth object at 0x7f829fdccdf0>
-print(miss_cotton)
+    def feed(self):
+      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
