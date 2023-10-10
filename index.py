@@ -1,10 +1,13 @@
 # import the python datetime module to help us create a timestamp
 from datetime import date
+from animals import Animal
 
 
 # import categories swimming, slithering, and walking and then each animal
-# from animals.swimmimg import Carp, Goldfish
-# from attractions import Pettingzoo
+# from animals.swimmimg import Bass, Carp, Frog, Goldfish, Mallard
+# from animals.slithering import Beetle, Copperhead, Cottonmouth, Kingsnake, Ratsnake
+from animals.walking import Cat, Dog, Donkey, Goat, Llama
+# from attractions import Pettingzoo, Snakepit, wetlands
 
 # class Llama:
 
@@ -21,7 +24,7 @@ from datetime import date
 # # print(miss_fuzz)
 # print(miss_fuzz.name)
 
-# add vscode, init, and imports -back up to git - 
+# add vscode
 
 
 # george = Monkey()
@@ -39,3 +42,7 @@ from datetime import date
 # wilbur = Pig("Wilbur", "pot-bellied pig")
 
 # print(wilbur.name, wilbur.species)
+
+roberto = Llama("Roberto", "llama", "midday", "grass")
+print(f'{roberto.name} the {roberto.species} is available to pet during the {roberto.shift} shift.')
+# prints Roberto the alpaca is available to pet during the midday shift.
