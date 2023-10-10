@@ -46,3 +46,7 @@ from animals.walking import Cat, Dog, Donkey, Goat, Llama
 roberto = Llama("Roberto", "llama", "midday", "grass")
 print(f'{roberto.name} the {roberto.species} is available to pet during the {roberto.shift} shift.')
 # prints Roberto the alpaca is available to pet during the midday shift.
+
+emma = Cat("Emma", "cat", "midday", "tuna")
+print(f'{emma.name} the {emma.species} is available to pet during the {emma.shift} shift. {emma.name} enjoys {emma.food}.')
+print(emma.feed())

@@ -1,5 +1,7 @@
 from datetime import date
 
+from animals import Animal
+
 class Llama:
 
     def __init__(self, name, species, shift, food):

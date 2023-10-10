@@ -5,15 +5,16 @@ from animals import Animal
 
 class Cat(Animal):
 
-    def __init__(self, name, species, shift):
-        super().__init__(name, species, shift)
-        # Establish the properties of each animal
-        # with a default value
-        self.name = ""
-        self.species = ""
-        # self.date_added = date.today()
+    def __init__(self, name, species, shift, food):
+        self.name = name
+        self.species = species
+        self.date_added = date.today()
         self.walking = True
+        self.food = food
         self.shift = shift
+
+    def feed(self):
+      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
 
 # miss_purr = Cat()
 
