@@ -4,9 +4,9 @@ from animals import Animal
 
 
 # import categories swimming, slithering, and walking and then each animal
-from animals.swimmimg import Bass, Carp, Frog, Goldfish, Mallard
 from animals.slithering import Beetle, Copperhead, Cottonmouth, Kingsnake, Ratsnake
 from animals.walking import Cat, Dog, Donkey, Goat, Llama
+from animals.swimming import Frog, Bass, Carp, Goldfish, Mallard
 # from attractions import Pettingzoo, Snakepit, wetlands
 
 # class Llama:
@@ -43,18 +43,18 @@ from animals.walking import Cat, Dog, Donkey, Goat, Llama
 
 # print(wilbur.name, wilbur.species)
 
-roberto = Llama("Roberto", "llama", "midday", "grass")
-print(f'{roberto.name} the {roberto.species} is available to pet during the {roberto.shift} shift.')
-# prints Roberto the alpaca is available to pet during the midday shift.
+# roberto = Llama("Roberto", "llama", "midday", "grass")
+# print(f'{roberto.name} the {roberto.species} is available to pet during the {roberto.shift} shift.')
+# # prints Roberto the alpaca is available to pet during the midday shift.
 
-emma = Cat("Emma", "cat", "midday", "tuna")
-print(f'{emma.name} the {emma.species} is available to pet during the {emma.shift} shift. {emma.name} enjoys {emma.food}.')
-print(emma.feed())
+# emma = Cat("Emma", "cat", "midday", "tuna")
+# print(f'{emma.name} the {emma.species} is available to pet during the {emma.shift} shift. {emma.name} enjoys {emma.food}.')
+# print(emma.feed())
 
-regina = Cottonmouth("Regina", "cottonmouth", "rat")
-print(f'{regina.name} the {regina.species} is available in the Snakepit attration. {regina.name} enjoys {regina.food}.')
-print(regina.feed())
+# regina = Cottonmouth("Regina", "cottonmouth", "rat")
+# print(f'{regina.name} the {regina.species} is available in the Snakepit attration. {regina.name} enjoys {regina.food}.')
+# print(regina.feed())
 
-kermy = Frog("Regina", "cottonmouth", "flies")
-print(f'{kermy.name} the {kermy.species} is available in the Pond attration. {kermy.name} enjoys {kermy.food}.')
-print(kermy.feed())
+# kermy = Frog("Kermy", "frog", "flies")
+# print(f'{kermy.name} the {kermy.species} is available in the Pond attration. {kermy.name} enjoys {kermy.food}.')
+# print(kermy.feed())

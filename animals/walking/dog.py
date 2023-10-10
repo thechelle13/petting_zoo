@@ -1,7 +1,8 @@
 from datetime import date
-from animals import Animal
 
-class Dog(Animal):
+# from animals import Animal
+
+class Dog:
 
     def __init__(self, name, species, shift, food):
         self.name = name
@@ -13,6 +14,9 @@ class Dog(Animal):
 
     def feed(self):
       print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+      
+    def __str__(self):
+        return f"{self.name} is a {self.species}"
 
 # miss_barky = Dog()
 
