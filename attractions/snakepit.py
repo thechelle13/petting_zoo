@@ -1,6 +1,9 @@
-class Snakepit:
+from .attraction import Attraction
 
-    def __init__(self, name):
+
+class Snakepit(Attraction):
+
+    def __init__(self, name, description):
         self.attraction_name = name
         self.description = "Wonder at the variety and sizes of snakes."
         self.animals = list()

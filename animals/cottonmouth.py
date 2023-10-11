@@ -2,13 +2,13 @@ from datetime import date
 
 # from animals import Animal
 
-class Bass:
+class Cottonmouth:
 
     def __init__(self, name, species, food):
         self.name = name
         self.species = species
         self.date_added = date.today()
-        self.swimming = True
+        self.slithering = True
         self.food = food
         
 
@@ -17,3 +17,7 @@ class Bass:
       
     def __str__(self):
         return f"{self.name} is a {self.species}"
+      
+regina = Cottonmouth("Regina", "cottonmouth", "rat")
+print(f'{regina.name} the {regina.species} is available in the Snakepit attration. {regina.name} enjoys {regina.food}.')
+print(regina.feed())

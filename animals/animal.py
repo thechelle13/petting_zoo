@@ -7,6 +7,9 @@ class Animal:
         self.food = food
         self.__chip_number = chip_num
         self.date_added = date.today()
+        
+    def __str__(self) -> str:
+        return f"{self.name} the {self.species}"
 
     def feed(self):
         print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')

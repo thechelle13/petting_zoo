@@ -19,7 +19,6 @@ class Cat:
     def __str__(self):
         return f"{self.name} is a {self.species}"
 
-# miss_purr = Cat()
-
-# miss_purr.name = "Miss Purr"
-# miss_purr.species = "domestic cat"
+emma = Cat("Emma", "cat", "midday", "tuna")
+print(f'{emma.name} the {emma.species} is available to pet during the {emma.shift} shift. {emma.name} enjoys {emma.food}.')
+print(emma.feed())
