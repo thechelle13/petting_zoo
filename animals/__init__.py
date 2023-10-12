@@ -5,6 +5,7 @@ from .dog import Dog
 from .donkey import Donkey
 from .goat import Goat
 from .llama import Llama
+from .goose import Goose
 
 from .bass import Bass
 from .carp import Carp

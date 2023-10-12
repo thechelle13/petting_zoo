@@ -16,7 +16,7 @@ class Wetlands(Attraction):
         try:
             
              
-            if animal.swimming_speed > -1:
+            if animal.swim_speed > -1:
                 self.animals.append(animal)
                 print(f"{animal} now lives in {self.attraction_name}")
                 
